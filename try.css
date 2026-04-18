@@ -115,6 +115,10 @@ body {
     border-radius: 8px;
 }
 
+.details:hover {
+    background-color: #d9d9d9;
+}
+
 .ash {
     background-color: #ccd1d1;
     color: black;
@@ -137,4 +141,9 @@ body {
     background-color: #ccd1d1;
     color: black;
     border-top: #6d6d6d solid 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
