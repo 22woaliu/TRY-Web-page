@@ -147,3 +147,18 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; 
+  width: 100%;
+  height: 400px;
+}
+
+.slider img {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+  object-fit: cover;
+}
+
