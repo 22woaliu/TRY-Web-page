@@ -15,17 +15,19 @@ document.getElementById('loadMore').addEventListener('click', function() {
     }
 });
 
-function filterPosts(category) {
+function filterPosts(category, button) {
+    let buttons = document.querySelectorAll('.filter-buttons button');
+  
+    buttons.forEach(btn => btn.classList.remove('active'));
+    
+    button.classList.add('active');
+
     let posts = document.querySelectorAll('.details');
 
     posts.forEach(details => {
-        if (category === 'all') {
+        if (category === 'all' || details.classList.contains(category)) {
             details.style.display = 'block';
-        }
-        else if (details.classList.contains(category)) {
-            details.style.display = 'block';
-        }
-        else {
+        } else {
             details.style.display = 'none';
         }
     });

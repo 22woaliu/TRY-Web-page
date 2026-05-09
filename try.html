@@ -14,7 +14,7 @@
                 <span class="brand-name">TRY</span>
             </div>
             <ul class="nav-links">
-                <li><a href="try.html">Home</a></li>
+                <li><a href="try.html" style="color: #ffcc00;">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="joinus.html">Join Us</a></li>
             </ul>
@@ -22,10 +22,12 @@
         <br>
         <h1 align="center"><b>Welcome to TRY</b></h1><br>
         <h2 align="center"><i>A helping hand for everyone</i></h2><br>
-        <button class="btn" onclick="filterPosts('all')">All</button>
-        <button class="btn" onclick="filterPosts('winter')">Winter</button>
-        <button class="btn" onclick="filterPosts('relief')">Relief</button>
-        <button class="btn" onclick="filterPosts('meal')">Meal</button><br><br>
+        <div class="filter-buttons">
+            <button class="active" onclick="filterPosts('all', this)">All</button>
+            <button onclick="filterPosts('meal', this)">Meals</button>
+            <button onclick="filterPosts('winter', this)">Winter</button>
+            <button onclick="filterPosts('relief', this)">Relief</button>
+        </div><br><br>
         <div class="event">
             <h2><b>Latest Events</b></h2><br>
             <div class="details meal" style="border-top: 1px solid black;">
@@ -50,7 +52,7 @@
                 </a>
             </div>
 
-        
+
             <div class="details relief" style="display: none;">
                 <br>
                 <a href="ss2.html">
@@ -76,7 +78,7 @@
             </div>
         </div>
 
-        
+
         <button id="loadMore">Load More</button>
 
         </div>
@@ -106,7 +108,7 @@
                     <div>
                         <p><b>Also find us on social media:</b></p>
                         <p>Facebook: <a href="https://www.facebook.com/try.kuet">Try.facebook</a></p>
-                        <p>Instagram: <a href="https://www.instagram.com/try.kuet">Try.insta</a></p>
+                        <p>Instagram: <a href="https://www.instagram.com/try_kuet?fbclid=IwY2xjawRrvrJleHRuA2FlbQIxMABicmlkETExcWl2QVJVZWMzVUJ4Yndlc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtN8OTLGH3CVdwNmkLDlBRxxd9GU1kHyOS6FF7wvbz0vP7bstVYFsH3w1g0E_aem_85nF7TVeAlgMP3CU-ZzELgt">Try.insta</a></p>
                     </div>
                 </div>
             </div>

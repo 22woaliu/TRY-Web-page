@@ -193,3 +193,42 @@ a {
 .relief{
 
 }
+
+
+.filter-buttons button {
+    background-color: #f0f0f0;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.filter-buttons button.active {
+    background-color: #2ecc71; 
+    color: white;
+    border-color: #27ae60;
+}
+
+.join-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.join-form input, .join-form textarea, .join-form select {
+    width: 100%;           
+    padding: 10px;        
+    margin-top: 5px;     
+    border: 1px solid #ccc;
+    border-radius: 5px;  
+    box-sizing: border-box; 
+}
+
+.join-form input[type="submit"] {
+    background-color: #2ecc71;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
