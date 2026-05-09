@@ -16,19 +16,15 @@ document.getElementById('loadMore').addEventListener('click', function() {
 });
 
 function filterPosts(category) {
-    // 1. Select all elements with the class 'post'
     let posts = document.querySelectorAll('.details');
 
     posts.forEach(details => {
-        // 2. If 'all' is clicked, show everything
         if (category === 'all') {
             details.style.display = 'block';
-        } 
-        // 3. Check if the post contains the category class
+        }
         else if (details.classList.contains(category)) {
             details.style.display = 'block';
-        } 
-        // 4. Otherwise, hide it
+        }
         else {
             details.style.display = 'none';
         }
