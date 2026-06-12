@@ -1,30 +1,18 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title><?php echo $pageTitle; ?> - My Website</title>
     <link rel="stylesheet" href="try.css">
-    <title>TRY</title>
 </head>
-
 <body>
-    <main class="content-container">
-        <nav class="navbar">
-            <div class="logo-container">
-                <img src="try_img.png" alt="Logo" class="logo-img">
-                <span class="brand-name">TRY</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="try.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="joinus.html">Join Us</a></li>
-                <li><a href="admin_login.php">Admin Login</a></li>
-            </ul>     
-        </nav>
+    <footer>
         <div class="ash">
             <div class="equal">
                 <div>
                     <img src="try_img.png" alt="" width="15%">
-                    <p>Try is a humanitarian organization working actively to improve the quality of underprivileged lives.</p>
+                    <p>Try is a humanitarian organization working actively to improve the quality of underprivileged
+                        lives.</p>
                     <br><br>
                     <p>Working for sustainable development and social justice.</p>
                 </div>
@@ -44,12 +32,11 @@
                     <div>
                         <p><b>Also find us on social media:</b></p>
                         <p>Facebook: <a href="https://www.facebook.com/try.kuet">Try.facebook</a></p>
-                        <p>Instagram: <a href="https://www.instagram.com/try_kuet?fbclid=IwY2xjawRrvrJleHRuA2FlbQIxMABicmlkETExcWl2QVJVZWMzVUJ4Yndlc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtN8OTLGH3CVdwNmkLDlBRxxd9GU1kHyOS6FF7wvbz0vP7bstVYFsH3w1g0E_aem_85nF7TVeAlgMP3CU-ZzELg">Try.insta</a></p>
+                        <p>Instagram: <a href="https://www.instagram.com/try_kuet?fbclid=IwY2xjawRrvrJleHRuA2FlbQIxMABicmlkETExcWl2QVJVZWMzVUJ4Yndlc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtN8OTLGH3CVdwNmkLDlBRxxd9GU1kHyOS6FF7wvbz0vP7bstVYFsH3w1g0E_aem_85nF7TVeAlgMP3CU-ZzELgt">Try.insta</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </footer>
 </body>
-
 </html>
