@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="try.css">
+    <title>TRY</title>
+</head>
+
+<body>
+    <main class="content-container">
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="try_img.png" alt="Logo" class="logo-img">
+                <span class="brand-name">TRY</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="admin_home.html">Home</a></li>
+                <li><a href="admin_about.html">About</a></li>
+                <li><a href="members.php">Members</a></li>
+                <li><a href="try.html">LogOut</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1 align="center"><b>Welcome to TRY</b></h1><br>
+        <h2 align="center"><i>A helping hand for everyone</i></h2><br>
+        <div class="filter-buttons">
+            <button class="active" onclick="filterPosts('all', this)">All</button>
+            <button onclick="filterPosts('meal', this)">Meals</button>
+            <button onclick="filterPosts('winter', this)">Winter</button>
+            <button onclick="filterPosts('relief', this)">Relief</button>
+        </div><br><br>
+        <div class="event">
+            <h2><b>Latest Events</b></h2><br>
+            <div class="details meal" style="border-top: 1px solid black;">
+                <br>
+                <a href="iftar_event.html">
+                    <p>Date: 15th April, 2023</p>
+                    <h2>EVENT-1</h2><img src="ss1.png" alt="" height="100%" width="100%">
+                </a><br>
+            </div>
+            <div class="details meal">
+                <br>
+                <a href="ss2.html">
+                    <p>Date: 10th May, 2023</p>
+                    <h2>EVENT-2</h2><img src="ss2.png" alt="" height="100%" width="100%">
+                </a>
+            </div>
+            <div class="details winter" style="display: none;">
+                <br>
+                <a href="SS3.html">
+                    <p>Date: 10th May, 2023</p>
+                    <h2>EVENT-3</h2><img src="SS3.png" alt="" height="100%" width="100%">
+                </a>
+            </div>
+
+
+            <div class="details relief" style="display: none;">
+                <br>
+                <a href="ss2.html">
+                    <p>Date: 10th May, 2023</p>
+                    <h2>EVENT-4</h2><img src="ss2.png" alt="" height="100%" width="100%">
+                </a>
+            </div>
+
+            <div class="details" style="display: none;">
+                <br>
+                <a href="ss2.html">
+                    <p>Date: 10th May, 2023</p>
+                    <h2>EVENT-5</h2><img src="SS3.png" alt="" height="100%" width="100%">
+                </a>
+            </div>
+
+            <div class="details" style="display: none;">
+                <br>
+                <a href="ss2.html">
+                    <p>Date: 10th May, 2023</p>
+                    <h2>EVENT-6</h2><img src="SS4.png" alt="" height="100%" width="100%">
+                </a>
+            </div>
+        </div>
+
+
+        <button id="loadMore">Load More</button>
+
+        </div>
+        <br><br>
+        <div class="ash">
+            <div class="equal">
+                <div>
+                    <img src="try_img.png" alt="" width="15%">
+                    <p>Try is a humanitarian organization working actively to improve the quality of underprivileged
+                        lives.</p>
+                    <br><br>
+                    <p>Working for sustainable development and social justice.</p>
+                </div>
+                <div>
+                    <br><br>
+                    <h1>Contact Us</h1>
+                    <p>Phone number: +1 234 567 890</p>
+                    <p>Email: <a href="https://mail.google.com/mail/u/0">woaliuhasan7@gmail.com</a></p>
+                </div>
+            </div><br>
+            <div class="last">
+                <br>
+                <div class="equal">
+                    <div>
+                        <b><a href="http://127.0.0.1:5500/try.html">try.org</a></b>
+                    </div>
+                    <div>
+                        <p><b>Also find us on social media:</b></p>
+                        <p>Facebook: <a href="https://www.facebook.com/try.kuet">Try.facebook</a></p>
+                        <p>Instagram: <a href="https://www.instagram.com/try_kuet?fbclid=IwY2xjawRrvrJleHRuA2FlbQIxMABicmlkETExcWl2QVJVZWMzVUJ4Yndlc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtN8OTLGH3CVdwNmkLDlBRxxd9GU1kHyOS6FF7wvbz0vP7bstVYFsH3w1g0E_aem_85nF7TVeAlgMP3CU-ZzELgt">Try.insta</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="try.js"></script>
+</body>
+
+</html>

@@ -20,7 +20,7 @@
                 $inputPassword = $_POST['password'];
 
                 if ($inputEmail === $staticEmail && $inputPassword === $staticPassword) {
-                    header("Location: admin_page.html");
+                    header("Location: admin_home.html");
                     exit();
                 } else {
                     $errorMessage = "Invalid email or password!";
