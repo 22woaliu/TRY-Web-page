@@ -32,3 +32,6 @@ function filterPosts(category, button) {
         }
     });
 }
+
+
+
