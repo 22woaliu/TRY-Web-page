@@ -57,8 +57,8 @@ $pageTitle = "Manage Members";
                         <td><?php echo ($row['name'] ?? ''); ?></td>
                         <td><?php echo ($row['email'] ??''); ?></td>
                         <td><?php echo ($row['phone'] ??''); ?></td>
-                        <td><a href="a" style="color: #2980b9; text-decoration: none; margin-right: 15px; font-weight: bold;">Modify</a></td>
-                        <td><a href="b" style="color: #c0392b; text-decoration: none; font-weight: bold;">Delete</a></td>
+                        <td><a href="edit_member.php?id=<?php echo $row['id']; ?>" style="color: #2980b9; text-decoration: none; margin-right: 15px; font-weight: bold;">Modify</a></td>
+                        <td><a href="delete_member.php?id=<?php echo $row['id']; ?>" style="color: #c0392b; text-decoration: none; font-weight: bold;">Delete</a></td>
                     </tr>
                 <?php endwhile; ?>
             <?php else: ?>
