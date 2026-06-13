@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $pageTitle; ?> - My Website</title>
+    <title>TRY</title>
     <link rel="stylesheet" href="try.css">
 </head>
 <body>

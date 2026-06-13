@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['add_member'])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $pageTitle; ?></title>
+    <title>TRY</title>
     <link rel="stylesheet" href="try.css">
 </head>
 <body>

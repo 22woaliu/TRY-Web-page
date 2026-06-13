@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $pageTitle; ?></title>
+    <title>TRY - About Us</title>
     
     <link rel="stylesheet" href="try.css?v=<?php echo time(); ?>">
 </head>

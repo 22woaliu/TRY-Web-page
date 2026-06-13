@@ -10,7 +10,7 @@
 <body>
     <main class="content-container">
         <?php 
-            include('header.php'); 
+            include('admin_header.php'); 
         ?>
         
         <br><br>
@@ -26,7 +26,7 @@
         <br><br>
 
         <?php 
-            include('footer.php');
+            include('admin_footer.php');
         ?>
     </main>
 </body>

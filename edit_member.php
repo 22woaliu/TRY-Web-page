@@ -53,7 +53,7 @@ if (!$member && empty($message)) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title><?php echo $pageTitle; ?></title>
+    <title>TRY</title>
     <link rel="stylesheet" href="try.css">
 </head>
 <body>
