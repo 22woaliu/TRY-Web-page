@@ -15,14 +15,13 @@ function showSlide(index) {
     } else {
         currentIndex = index;
     }
-        // Moves the image strip cleanly to the left based on width percentage
     container.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
 function startAutoPlay() {
     autoPlayTimer = setInterval(() => {
         showSlide(currentIndex + 1);
-    }, 2000); // 2000ms = Exactly 2 seconds
+    }, 2000);
 }
 
 function resetAutoPlay() {

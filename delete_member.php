@@ -27,7 +27,7 @@ if (isset($_GET['id'])) {
         header("Location: members.php");
     } else {
         $message = "Error handling request execution: " . $conn->error;
-        header("refresh:3; url=members.php");
+        header("Location: members.php");
     }
     $stmt->close();
 } else {
