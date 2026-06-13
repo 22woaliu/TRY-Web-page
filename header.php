@@ -9,7 +9,7 @@
             </div>
             <ul class="nav-links">
                 <li><a href="try.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="joinus.html">Join Us</a></li>
                 <li><a href="admin_login.php">Admin Login</a></li>
             </ul>
